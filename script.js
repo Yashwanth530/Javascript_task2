@@ -330,49 +330,6 @@ if(num2 !== 0){
         alert("Invalid choice. Please select 1,2,3, or 4.");
 };
 
-/*
-let num1 = Number(prompt("Enter the first number"));
-let num2 = Number(prompt("Enter the second number"));
-
-let choice = Number(prompt(
-    "Choose an operation:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division"
-));
-
-switch (choice) {
-    case 1:
-        alert("Addition: " + (num1 + num2));
-        break;
-
-    case 2:
-        alert("Subtraction: " + (num1 - num2));
-        break;
-
-    case 3:
-        alert("Multiplication: " + (num1 * num2));
-        break;
-
-    case 4:
-        if (num2 !== 0) {
-            alert("Division: " + (num1 / num2));
-        } else {
-            alert("Cannot divide by zero");
-        }
-        break;
-
-    default:
-        alert("Invalid choice. Please select 1, 2, 3, or 4.");
-}
-*/
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -287,16 +287,50 @@ for (let num of arr) {
 }
 
 // Take a user's age using prompt(). Use a conditional statement to check eligibility, then display the result using alert().
+    
 
-let uage = prompt("enter your  age")
-if( uage  >= 18){
-    alert("your age is elgible")
-}
-else{
-    alert("your age is not elgible")
-}
+    let uage = prompt("enter your  age")
+    if( uage  >= 18){
+        alert("your age is elgible")
+    }
+    else{
+        alert("your age is not elgible")
+    }
+
+
+
+
+
 // Create a simple menu using switch with these options: addition, subtraction, multiplication, and division. Take two numbers from the user and display the selected operation's result
 
+let num1 = Number(prompt("enter your first  number"));
+let num2 = Number(prompt("enter your second  number"));
+
+let choice = Number(prompt(
+    "choose an operation:\n1. addition\n2.  Subtraction\n3. Multiplication\n4. Division"
+));
+
+switch(choice) {
+    case 1: alert("addition : " +(num1 + num2));
+    break;
+    case 2: alert("Subtraction : " +(num1 - num2));
+    break;
+    case 3: alert("Multiplication : " +(num1 * num2));
+    break;
+    case 4:
+if(num2 !== 0){
+ alert(" Division : " +(num1 / num2));
+}
+    else{
+        alert("cannot divide by zero")
+    }
+    break;
+
+    default:
+        alert("Invalid choice. Please select 1,2,3, or 4.");
+};
+
+/*
 let num1 = Number(prompt("Enter the first number"));
 let num2 = Number(prompt("Enter the second number"));
 
@@ -328,7 +362,7 @@ switch (choice) {
     default:
         alert("Invalid choice. Please select 1, 2, 3, or 4.");
 }
-
+*/
 
 
 
